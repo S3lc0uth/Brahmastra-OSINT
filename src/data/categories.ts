@@ -54,7 +54,7 @@ export const categories: Category[] = [
         {
         id: "Blogs ",
         name: "Blogs",
-        description: "General utilities and supporting tools for OSINT",
+        description: "General utilities ",
         icon: "tool",
     },
 ];
