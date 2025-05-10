@@ -21,7 +21,7 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
       'social-media': 'bg-purple-500',
       'domain-ip': 'bg-green-500',
       'images-media': 'bg-yellow-500',
-      'geolocation': 'bg-red-500',
+      'Geo Int': 'bg-red-500',
       'darkweb': 'bg-gray-800',
       'communication': 'bg-indigo-500',
       'utilities': 'bg-teal-500'
