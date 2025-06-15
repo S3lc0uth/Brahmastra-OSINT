@@ -9,39 +9,39 @@ export const categories: Category[] = [
     },
     {
         id: "social-media",
-        name: "Soc-Int",
+        name: "Social Media",
         description: "Tools for gathering intelligence from social platforms",
         icon: "users",
     },
     {
         id: "domain-ip",
-        name: "Domain & IP",
+        name: "Web App",
         description:
             "Tools for analyzing domains, IPs, and network information",
         icon: "globe",
     },
     {
         id: "images-media",
-        name: "Im-Int",
+        name: "Image",
         description:
             "Tools for analyzing and gathering information from visual media",
         icon: "image",
     },
     {
         id: "geolocation",
-        name: "GeoInt",
+        name: "Geolocation",
         description: "Tools for geographical intelligence and mapping",
         icon: "map-pin",
     },
     {
         id: "darkweb",
-        name: "DarkInt",
+        name: "DarkWeb",
         description: "Tools for investigating dark web content and services",
         icon: "shield",
     },
     {
         id: "communication",
-        name: "ComInt",
+        name: "Signal",
         description: "Tools for analyzing communication data and metadata",
         icon: "message-circle",
     },
