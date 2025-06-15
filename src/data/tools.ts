@@ -5,6 +5,14 @@ export const tools: Tool[] = [
     // Search Engines
     // =========================
     {
+        id: "google-advanced-search",
+        name: "Google Advanced Search",
+        description: "Advanced interface for Google Search, allowing precise queries to find specific file types, websites, or content.",
+        url: "https://www.google.com/advanced_search",
+        category: "search-engines",
+        tags: ["search", "google", "advanced", "filetype", "query"],
+    },
+    {
         id: "shodan",
         name: "Shodan",
         description: "A powerful search engine for discovering internet-connected devices, services, and vulnerabilities across the globe.",
@@ -19,14 +27,6 @@ export const tools: Tool[] = [
         url: "https://crt.sh/",
         category: "search-engines",
         tags: ["certificate", "transparency", "subdomain", "ssl", "tls"],
-    },
-    {
-        id: "google-advanced-search",
-        name: "Google Advanced Search",
-        description: "Advanced interface for Google Search, allowing precise queries to find specific file types, websites, or content.",
-        url: "https://www.google.com/advanced_search",
-        category: "search-engines",
-        tags: ["search", "google", "advanced", "filetype", "query"],
     },
     {
         id: "yandex",
