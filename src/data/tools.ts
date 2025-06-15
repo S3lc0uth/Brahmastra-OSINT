@@ -19,15 +19,7 @@ export const tools: Tool[] = [
         category: "domain-ip",
         tags: ["dns", "reconnaissance", "mapping"],
     },
-    {
-        id: "censys",
-        name: "Censys Search",
-        description:
-            "Internet-wide scanning data for security research and analysis",
-        url: "https://search.censys.io/",
-        category: "domain-ip",
-        tags: ["scanning", "internet", "reconnaissance"],
-    },
+
     {
         id: "rapiddns",
         name: "Rapid DNS",
@@ -55,14 +47,7 @@ export const tools: Tool[] = [
     },
 
     // Search Engines & Scanning tools
-    {
-        id: "urlscan",
-        name: "URL Scan",
-        description: "Website scanner for suspicious and malicious URLs",
-        url: "https://urlscan.io/",
-        category: "search-engines",
-        tags: ["scanning", "malware", "url"],
-    },
+
     {
         id: "virustotal",
         name: "Virus Total",
@@ -71,23 +56,7 @@ export const tools: Tool[] = [
         category: "search-engines",
         tags: ["malware", "scanning", "security"],
     },
-    {
-        id: "malicious-link-check",
-        name: "DFNDR Lab Link Check",
-        description: "Tool to verify if links are safe or malicious",
-        url: "https://www.psafe.com/dfndr-lab/",
-        category: "search-engines",
-        tags: ["url", "security", "verification"],
-    },
-    {
-        id: "web-check",
-        name: "Web Check",
-        description:
-            "Comprehensive website analysis and information gathering tool",
-        url: "https://web-check.as93.net/",
-        category: "search-engines",
-        tags: ["analysis", "information", "reconnaissance"],
-    },
+
 
     // Utilities
     {
@@ -462,15 +431,6 @@ export const tools: Tool[] = [
         category: "social-media",
         tags: ["vk", "comments", "photos", "monitoring"],
     },
-
-    {
-        id: "ghunt",
-        name: "GHunt",
-        description: "Command line tool for Google account investigation",
-        url: "https://github.com/mxrch/Ghunt",
-        category: "search-engines",
-        tags: ["google", "account", "investigation", "command-line"],
-    },
     {
         id: "mw-geofind",
         name: "MW Geofind",
@@ -478,14 +438,6 @@ export const tools: Tool[] = [
         url: "https://mattw.io/youtube-geofind/location",
         category: "geolocation",
         tags: ["youtube", "location", "geolocation", "videos"],
-    },
-    {
-        id: "raditube",
-        name: "RadiTube",
-        description: "Search engine for subtitles of radical YouTube channels",
-        url: "https://tool.raditube.com/",
-        category: "search-engines",
-        tags: ["youtube", "subtitles", "search", "extremism"],
     },
     {
         id: "youtube-dl",
@@ -522,15 +474,6 @@ export const tools: Tool[] = [
         category: "social-media",
         tags: ["reddit", "analysis", "profiles", "activity"],
     },
-
-    {
-        id: "4plebs",
-        name: "4plebs",
-        description: "Searchable archive of 4chan boards",
-        url: "https://4plebs.org/",
-        category: "search-engines",
-        tags: ["4chan", "archive", "search", "forum"],
-    },
     {
         id: "alltrails",
         name: "AllTrails",
@@ -547,15 +490,6 @@ export const tools: Tool[] = [
         url: "https://clubhousedb.com/",
         category: "social-media",
         tags: ["clubhouse", "users", "search", "database"],
-    },
-    {
-        id: "google-account-finder",
-        name: "Google Account Finder (EPIEOS)",
-        description:
-            "Find profile pictures and Google Map reviews linked to Gmail addresses",
-        url: "https://tools.epieos.com/google-account.php",
-        category: "search-engines",
-        tags: ["google", "gmail", "account", "reviews"],
     },
     {
         id: "gravatar-email-checker",
