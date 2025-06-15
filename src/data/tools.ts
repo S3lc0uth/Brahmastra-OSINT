@@ -288,6 +288,89 @@ export const tools: Tool[] = [
     // =========================
     // Email
     // =========================
+    // =========================
+    // Email
+    // =========================
+    {
+        id: "check-short-url",
+        name: "Check Short URL",
+        description: "Reveal the destination of shortened URLs before visiting them",
+        url: "https://checkshorturl.com/",
+        category: "Email",
+        tags: ["url", "shortener", "security"],
+    },
+    {
+        id: "haveibeenpwned",
+        name: "Have I Been Pwned",
+        description: "Check if email addresses have been compromised in known data breaches and security incidents",
+        url: "https://haveibeenpwned.com/",
+        category: "Email",
+        tags: ["breach", "security", "compromise", "data-leak", "verification"],
+    },
+    {
+        id: "epieos",
+        name: "Epieos",
+        description: "Advanced email and phone number OSINT tool for investigating digital footprints and associated accounts",
+        url: "https://epieos.com/",
+        category: "Email",
+        tags: ["osint", "investigation", "footprint", "accounts", "analysis"],
+    },
+    {
+        id: "hunter-io",
+        name: "Hunter.io",
+        description: "Professional email finder and verifier for discovering business email addresses and validating their deliverability",
+        url: "https://hunter.io/",
+        category: "Email",
+        tags: ["finder", "verification", "business", "professional", "deliverability"],
+    },
+    {
+        id: "whatsmyname",
+        name: "WhatsMyName",
+        description: "Username enumeration tool that searches for usernames across hundreds of social networks and platforms",
+        url: "https://whatsmyname.app/",
+        category: "Email",
+        tags: ["username", "enumeration", "social-networks", "platforms", "osint"],
+    },
+    {
+        id: "intelx-email",
+        name: "Intelligence X Email Tools",
+        description: "Comprehensive email intelligence platform for searching historical data, breaches, and darkweb mentions",
+        url: "https://intelx.io/tools?tab=email",
+        category: "Email",
+        tags: ["intelligence", "historical", "darkweb", "breaches", "search"],
+    },
+    {
+        id: "proofy",
+        name: "Proofy",
+        description: "Email verification service that validates email addresses for deliverability, syntax, and domain reputation",
+        url: "https://proofy.io/",
+        category: "Email",
+        tags: ["verification", "validation", "deliverability", "syntax", "reputation"],
+    },
+    {
+        id: "predictasearch",
+        name: "Predicta Search",
+        description: "Email finder and lead generation tool for discovering professional contacts and their email addresses",
+        url: "https://www.predictasearch.com/",
+        category: "Email",
+        tags: ["finder", "lead-generation", "professional", "contacts", "discovery"],
+    },
+    {
+        id: "getprospect",
+        name: "GetProspect",
+        description: "Email finder and outreach platform for locating business email addresses with high accuracy rates",
+        url: "https://getprospect.com/",
+        category: "Email",
+        tags: ["finder", "outreach", "business", "accuracy", "prospecting"],
+    },
+    {
+        id: "anymailfinder",
+        name: "AnyMailFinder",
+        description: "Email discovery tool that finds email addresses associated with domains and verifies their validity",
+        url: "https://anymailfinder.com/",
+        category: "Email",
+        tags: ["discovery", "domains", "validity", "finder", "verification"],
+    },
     {
         id: "check-short-url",
         name: "Check Short URL",
