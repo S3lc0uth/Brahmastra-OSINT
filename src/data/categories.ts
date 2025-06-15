@@ -9,7 +9,7 @@ export const categories: Category[] = [
     },
     {
         id: "social-media",
-        name: "SocInt",
+        name: "Soc-Int",
         description: "Tools for gathering intelligence from social platforms",
         icon: "users",
     },
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     },
     {
         id: "images-media",
-        name: "ImInt",
+        name: "Im-Int",
         description:
             "Tools for analyzing and gathering information from visual media",
         icon: "image",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     },
     {
         id: "Email",
-        name: "Utilities",
+        name: "E-mail",
         description: "General utilities and supporting tools for OSINT",
         icon: "tool",
     },
