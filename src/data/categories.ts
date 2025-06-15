@@ -57,6 +57,12 @@ export const categories: Category[] = [
         description: "General utilities and supporting tools for OSINT",
         icon: "tool",
     },
+    {
+        id: "Artificial Intelligence",
+        name: "Artificial Intelligence",
+        description: "General utilities and supporting tools for OSINT",
+        icon: "tool",
+    },
         {
         id: "Blogs ",
         name: "Blogs",
