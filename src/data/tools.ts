@@ -194,6 +194,62 @@ export const tools: Tool[] = [
     },
     // ... (add all other Email tools)
 
+        {
+        id: "dorkgpt",
+        name: "Dork GPT",
+        description: "AI-powered tool for generating and analyzing Google dorks and search queries for OSINT and cybersecurity research.",
+        url: "https://www.dorkgpt.com/",
+        category: "Artificial Intelligence",
+        tags: ["ai", "dorks", "osint", "search", "cybersecurity"],
+    },
+    {
+        id: "chatgpt",
+        name: "ChatGPT",
+        description: "OpenAI's conversational AI assistant capable of answering questions, generating text, and assisting with a wide range of tasks.",
+        url: "https://chatgpt.com/",
+        category: "Artificial Intelligence",
+        tags: ["ai", "chatbot", "nlp", "assistant"],
+    },
+    {
+        id: "gemini",
+        name: "Gemini",
+        description: "Google's advanced AI chatbot for research, writing, coding, and information retrieval.",
+        url: "https://gemini.google.com/app",
+        category: "Artificial Intelligence",
+        tags: ["ai", "chatbot", "google", "nlp"],
+    },
+    {
+        id: "deepseek",
+        name: "Deep Seek",
+        description: "AI-powered search and chat assistant for deep information gathering and analysis.",
+        url: "https://chat.deepseek.com/",
+        category: "Artificial Intelligence",
+        tags: ["ai", "search", "assistant", "information"],
+    },
+    {
+        id: "kali-gpt",
+        name: "Kali GPT",
+        description: "A specialized ChatGPT instance tailored for cybersecurity, penetration testing, and ethical hacking queries.",
+        url: "https://chatgpt.com/g/g-uRhlB5ire-kali-gpt",
+        category: "Artificial Intelligence",
+        tags: ["ai", "cybersecurity", "pentesting", "hacking"],
+    },
+    {
+        id: "perplexity",
+        name: "Perplexity",
+        description: "AI-powered answer engine for research, summarization, and real-time information synthesis.",
+        url: "https://www.perplexity.ai/",
+        category: "Artificial Intelligence",
+        tags: ["ai", "search", "summarization", "research"],
+    },
+    {
+        id: "claude",
+        name: "Claude",
+        description: "Anthropic's conversational AI assistant for creative writing, research, and productivity.",
+        url: "https://claude.ai/new",
+        category: "Artificial Intelligence",
+        tags: ["ai", "chatbot", "nlp", "assistant"],
+    },
     // =========================
     // Add other categories (Artificial Intelligence, Phone Number, Blogs, etc.) as needed
 ];
