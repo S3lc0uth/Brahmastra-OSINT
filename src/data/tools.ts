@@ -158,7 +158,7 @@ export const tools: Tool[] = [
         name: "SunCalc",
         description: "Solar position calculator that determines sun and moon positions for any location and time, useful for photo timestamp verification",
         url: "https://www.suncalc.org/",
-        category: "images-media",
+        category: "images-media","geolocation",
         tags: ["solar", "timestamp", "verification", "shadows", "geolocation"],
     },
     {
@@ -214,7 +214,7 @@ export const tools: Tool[] = [
         name: "GeoSpy AI",
         description: "AI-powered geolocation tool that analyzes images to determine where photos were taken using visual clues and landmarks",
         url: "https://geospy.ai/",
-        category: "images-media",
+        category: "images-media","geolocation",
         tags: ["geolocation", "ai", "photo-location", "landmarks", "osint"],
     },
     {
