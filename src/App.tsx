@@ -46,14 +46,14 @@ function App() {
         
         <main className="container mx-auto px-4 pt-28 pb-12">
           <div className="flex flex-col items-center justify-center mb-12 animate-slide-up relative min-h-[340px]">
-            {/* Animated gradient background behind avatar */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-56 h-56 rounded-full animated-gradient-bg z-0" />
-            {/* Animated floating avatar */}
+            {/* Subtle animated radial background behind avatar */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full animated-gradient-bg-subtle z-0" />
+            {/* Subtle floating avatar */}
             <a href="https://github.com/Gr1ffend0r" target="_blank" rel="noopener noreferrer" className="z-10">
               <img
                 src="https://github.com/Gr1ffend0r.png"
                 alt="Gr1ffend0r GitHub Avatar"
-                className="w-40 h-40 rounded-full border-4 border-blue-500 shadow-2xl animate-float-advanced bg-black object-cover"
+                className="w-32 h-32 rounded-full border-2 border-blue-400 shadow-lg animate-float-subtle bg-black object-cover"
                 style={{ background: 'rgba(0,0,0,0.7)' }}
               />
             </a>

@@ -21,3 +21,16 @@
   animation: gradientBG 6s ease-in-out infinite;
   filter: blur(32px) opacity(0.7);
 }
+
+@keyframes float-subtle {
+  0%, 100% { transform: translateY(0) scale(1); filter: drop-shadow(0 0 8px #00f6ff33); }
+  50% { transform: translateY(-8px) scale(1.01); filter: drop-shadow(0 0 16px #00f6ff44); }
+}
+.animate-float-subtle {
+  animation: float-subtle 5s ease-in-out infinite;
+}
+
+.animated-gradient-bg-subtle {
+  background: radial-gradient(circle at 50% 50%, #00f6ff22 0%, #ff00c822 60%, transparent 100%);
+  filter: blur(24px) opacity(0.5);
+}
