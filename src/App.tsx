@@ -53,7 +53,7 @@ function App() {
             style={{ zIndex: 1 }}
           />
           <div className="relative z-20 flex flex-col items-center justify-center w-full h-full">
-            <h1 className="text-5xl font-extrabold text-center mb-4" style={{ color: '#39FF14', textShadow: '0 0 16px #39FF14, 0 0 32px #39FF14AA' }}>
+            <h1 className="text-5xl font-extrabold text-center mb-4" style={{ color: '#39FF14', textShadow: '0 0 16px #FFFFFF, 0 0 32px #FFFFFF' }}>
               brahmastra
             </h1>
             <p className="text-xl text-gray-100 max-w-2xl mx-auto text-center bg-black/60 rounded-lg px-4 py-2">
