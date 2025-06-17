@@ -21,14 +21,6 @@ export const tools: Tool[] = [
         tags: ["search", "devices", "vulnerabilities", "internet-of-things"],
     },
     {
-        id: "crtsh",
-        name: "crt.sh",
-        description: "Certificate Transparency log search engine for discovering SSL/TLS certificates issued for domains, useful for subdomain and infrastructure discovery.",
-        url: "https://crt.sh/",
-        category: "search-engines",
-        tags: ["certificate", "transparency", "subdomain", "ssl", "tls"],
-    },
-    {
         id: "yandex",
         name: "Yandex",
         description: "Major Russian search engine, useful for discovering content not indexed by Western search engines.",
