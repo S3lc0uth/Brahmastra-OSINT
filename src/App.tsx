@@ -45,11 +45,22 @@ function App() {
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         
         <main className="container mx-auto px-4 pt-28 pb-12">
-          <div className="text-center mb-12 animate-slide-up">
-            <h1 className="text-5xl font-bold mb-4 animate-glow bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
+          <div className="flex flex-col items-center justify-center mb-12 animate-slide-up relative min-h-[340px]">
+            {/* Animated gradient background behind avatar */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-56 h-56 rounded-full animated-gradient-bg z-0" />
+            {/* Animated floating avatar */}
+            <a href="https://github.com/Gr1ffend0r" target="_blank" rel="noopener noreferrer" className="z-10">
+              <img
+                src="https://github.com/Gr1ffend0r.png"
+                alt="Gr1ffend0r GitHub Avatar"
+                className="w-40 h-40 rounded-full border-4 border-blue-500 shadow-2xl animate-float-advanced bg-black object-cover"
+                style={{ background: 'rgba(0,0,0,0.7)' }}
+              />
+            </a>
+            <h1 className="mt-8 text-5xl font-bold text-center animate-glow bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
               BRAHMĀSTRA
             </h1>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto mt-4 text-center">
               A powerful collection of intelligence tools for researchers, investigators, and cybersecurity professionals.
             </p>
           </div>
