@@ -37,12 +37,12 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
       rel="noopener noreferrer"
       className="block group h-full"
     >
-      <div className="h-full bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-5 flex flex-col relative">
+      <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 flex flex-col h-full shadow-lg transition-transform hover:scale-105">
         <div className="flex justify-between items-start">
           <div>
             <div className="flex items-center mb-2">
               <div className={`h-2 w-2 rounded-full mr-2 ${getCategoryColor(tool.category)}`}></div>
-              <h3 className="font-medium text-gray-800 dark:text-white group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">
+              <h3 className="font-medium text-neutral-100 group-hover:text-blue-400 transition-colors">
                 {tool.name}
               </h3>
             </div>
@@ -61,7 +61,7 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
           </button>
         </div>
         
-        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 mb-3 flex-grow">
+        <p className="text-sm text-neutral-300 mt-1 mb-3 flex-grow">
           {tool.description}
         </p>
         
@@ -70,13 +70,13 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
             {tool.tags.slice(0, 2).map((tag) => (
               <span 
                 key={tag} 
-                className="inline-block text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded-full"
+                className="inline-block text-xs px-2 py-1 bg-neutral-800 text-neutral-300 rounded-full"
               >
                 {tag}
               </span>
             ))}
             {tool.tags.length > 2 && (
-              <span className="inline-block text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded-full">
+              <span className="inline-block text-xs px-2 py-1 bg-neutral-800 text-neutral-300 rounded-full">
                 +{tool.tags.length - 2}
               </span>
             )}

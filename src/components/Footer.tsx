@@ -8,15 +8,37 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-700">
-              BRAHMĀSTRA
+              BRAHMASTRA
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mt-2">
               A collection of powerful intelligence tools.
             </p>
           </div>
           
-          
-          
+          <div className="flex space-x-4">
+            <a
+              href="https://github.com/Gr1ffend0r"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            >
+              <Github size={24} />
+            </a>
+            <a
+              href="https://github.com/Gr1ffend0r"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            >
+              <Twitter size={24} />
+            </a>
+            <a
+              href="mailto:Gr1ffend0r@proton.me"
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            >
+              <Mail size={24} />
+            </a>
+          </div>
         </div>
         
         <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-8 text-center">

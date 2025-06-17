@@ -43,47 +43,33 @@ const Header: React.FC<HeaderProps> = () => {
           </h1>
         </div>
 
-        <nav className="hidden md:flex space-x-6">
-          {categories.map((category) => (
-            <button
-              key={category.id}
-              onClick={() => scrollToCategory(category.id)}
-              className="text-gray-300 hover:text-orange-400 transition-colors"
-            >
-              {category.name}
-            </button>
-          ))}
-        </nav>
-
-        <div className="flex items-center">
+        <nav className="hidden md:flex">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 md:hidden rounded-full hover:bg-gray-700 transition-colors"
+            className="p-2 rounded-full hover:bg-gray-700 transition-colors"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <X className="w-5 h-5 text-gray-300" />
+              <X className="w-6 h-6 text-gray-300" />
             ) : (
-              <Menu className="w-5 h-5 text-gray-300" />
+              <Menu className="w-6 h-6 text-gray-300" />
             )}
           </button>
-        </div>
+        </nav>
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden bg-gray-900 shadow-lg animate-scale-in">
-          <div className="container mx-auto px-4 py-3">
-            <div className="flex flex-col space-y-3">
-              {categories.map((category) => (
-                <button
-                  key={category.id}
-                  onClick={() => scrollToCategory(category.id)}
-                  className="text-left py-2 text-gray-300 hover:text-orange-400 transition-colors"
-                >
-                  {category.name}
-                </button>
-              ))}
-            </div>
+        <div className="absolute right-4 top-16 md:right-4 md:top-16 bg-black border border-gray-800 rounded-lg shadow-lg animate-scale-in z-50 w-56">
+          <div className="flex flex-col p-4 space-y-2">
+            {categories.map((category) => (
+              <button
+                key={category.id}
+                onClick={() => scrollToCategory(category.id)}
+                className="text-left py-2 px-2 text-gray-200 hover:bg-gray-800 rounded transition-colors"
+              >
+                {category.name}
+              </button>
+            ))}
           </div>
         </div>
       )}

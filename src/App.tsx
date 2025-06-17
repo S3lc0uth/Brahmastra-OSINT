@@ -39,7 +39,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900/95 via-gray-800/95 to-gray-900/95 text-gray-100 transition-colors duration-200 relative backdrop-blur-sm">
+    <div className="min-h-screen bg-black text-white transition-colors duration-200 relative">
       <ParticlesBackground />
       <div className="relative z-10">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
