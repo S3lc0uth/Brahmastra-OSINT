@@ -3,6 +3,9 @@ import { ExternalLink, Bookmark, BookmarkCheck } from 'lucide-react';
 import { Tool } from '../types';
 import * as SiIcons from 'react-icons/si';
 
+// Dynamically import all images in tool-logos
+const logoImages = import.meta.glob('../assets/tool-logos/*', { eager: true, as: 'url' });
+
 interface ToolCardProps {
   tool: Tool;
 }
@@ -31,6 +34,10 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
     return colors[category] || 'bg-gray-500';
   };
 
+  // Try to find a logo image for this tool by id
+  const logoEntry = Object.entries(logoImages).find(([path]) => path.includes(`/${tool.id}.`));
+  const logoUrl = logoEntry ? logoEntry[1] as string : null;
+
   // Dynamically get the icon component from react-icons/si
   const IconComponent = tool.icon ? (SiIcons as any)[tool.icon] : null;
 
@@ -46,7 +53,11 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
           <div>
             <div className="flex items-center mb-2">
               <div className={`h-2 w-2 rounded-full mr-2 ${getCategoryColor(tool.category)}`}></div>
-              {IconComponent && <IconComponent className="mr-2 text-xl align-middle" />}
+              {logoUrl ? (
+                <img src={logoUrl} alt={tool.name + ' logo'} className="mr-2 h-6 w-6 object-contain rounded bg-white" />
+              ) : IconComponent ? (
+                <IconComponent className="mr-2 text-xl align-middle" />
+              ) : null}
               <h3 className="font-medium text-neutral-100 group-hover:text-blue-400 transition-colors">
                 {tool.name}
               </h3>
