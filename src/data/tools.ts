@@ -409,22 +409,7 @@ export const tools: Tool[] = [
         category: "geolocation",
         tags: ["gps", "jamming", "aircraft", "navigation", "interference"],
     },
-    {
-        id: "photo-map-ru",
-        name: "Photo-Map.RU",
-        description: "Map interface for geotagged VK posts",
-        url: "http://photo-map.ru/",
-        category: "geolocation",
-        tags: ["vk", "geolocation", "photos", "map"],
-    },
-    {
-        id: "mw-geofind",
-        name: "MW Geofind",
-        description: "Tool to identify filming locations of YouTube videos",
-        url: "https://mattw.io/youtube-geofind/location",
-        category: "geolocation",
-        tags: ["youtube", "location", "geolocation", "videos"],
-    },
+ 
     // ... (add other geolocation tools)
 
     // =========================
