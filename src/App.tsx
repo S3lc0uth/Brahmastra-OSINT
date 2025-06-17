@@ -7,6 +7,7 @@ import ParticlesBackground from './components/ParticlesBackground';
 import { tools } from './data/tools';
 import { categories } from './data/categories';
 import useDarkMode from './hooks/useDarkMode';
+import bellaCiaoGif from './assets/tool-logos/hero/bella-ciao.gif';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -48,15 +49,13 @@ function App() {
           <div className="flex flex-col items-center justify-center mb-12 animate-slide-up relative min-h-[340px]">
             {/* Subtle animated radial background behind avatar */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full animated-gradient-bg-subtle z-0" />
-            {/* Subtle floating avatar */}
-            <a href="https://github.com/Gr1ffend0r" target="_blank" rel="noopener noreferrer" className="z-10">
-              <img
-                src="https://github.com/Gr1ffend0r.png"
-                alt="Gr1ffend0r GitHub Avatar"
-                className="w-32 h-32 rounded-full border-2 border-blue-400 shadow-lg animate-float-subtle bg-black object-cover"
-                style={{ background: 'rgba(0,0,0,0.7)' }}
-              />
-            </a>
+            {/* Subtle floating avatar - now using local GIF */}
+            <img
+              src={bellaCiaoGif}
+              alt="Bella Ciao Hero"
+              className="w-40 h-40 rounded-full border-2 border-blue-400 shadow-lg animate-float-subtle bg-black object-cover z-10"
+              style={{ background: 'rgba(0,0,0,0.7)' }}
+            />
             <h1 className="mt-8 text-5xl font-bold text-center animate-glow bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
               BRAHMĀSTRA
             </h1>
