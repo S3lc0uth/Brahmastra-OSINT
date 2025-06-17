@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ExternalLink, Bookmark, BookmarkCheck } from 'lucide-react';
 import { Tool } from '../types';
+import * as SiIcons from 'react-icons/si';
 
 interface ToolCardProps {
   tool: Tool;
@@ -30,6 +31,9 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
     return colors[category] || 'bg-gray-500';
   };
 
+  // Dynamically get the icon component from react-icons/si
+  const IconComponent = tool.icon ? (SiIcons as any)[tool.icon] : null;
+
   return (
     <a 
       href={tool.url} 
@@ -42,6 +46,7 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
           <div>
             <div className="flex items-center mb-2">
               <div className={`h-2 w-2 rounded-full mr-2 ${getCategoryColor(tool.category)}`}></div>
+              {IconComponent && <IconComponent className="mr-2 text-xl align-middle" />}
               <h3 className="font-medium text-neutral-100 group-hover:text-blue-400 transition-colors">
                 {tool.name}
               </h3>

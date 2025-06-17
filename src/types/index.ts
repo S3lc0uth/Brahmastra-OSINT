@@ -5,6 +5,7 @@ export interface Tool {
   url: string;
   category: string;
   tags: string[];
+  icon?: string;
 }
 
 export interface Category {
