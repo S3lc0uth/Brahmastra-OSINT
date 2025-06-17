@@ -123,6 +123,7 @@ export const tools: Tool[] = [
         url: "http://facebook.com/livemap",
         category: "social-media",
         tags: ["facebook", "livestream", "map", "geolocation"],
+        icon: "SiFacebook",
     },
     {
         id: "facebook-video-downloader",
@@ -132,12 +133,48 @@ export const tools: Tool[] = [
         category: "social-media",
         tags: ["facebook", "video", "download", "media"],
     },
+    {
+        id: "twitter",
+        name: "Twitter",
+        description: "Popular social media platform for real-time news and networking.",
+        url: "https://twitter.com/",
+        category: "social-media",
+        tags: ["twitter", "social", "networking"],
+        icon: "SiTwitter",
+    },
+    {
+        id: "youtube",
+        name: "YouTube",
+        description: "Video sharing and streaming platform.",
+        url: "https://youtube.com/",
+        category: "images-media",
+        tags: ["video", "streaming", "media"],
+        icon: "SiYoutube",
+    },
+    {
+        id: "linkedin",
+        name: "LinkedIn",
+        description: "Professional networking platform.",
+        url: "https://linkedin.com/",
+        category: "social-media",
+        tags: ["professional", "networking", "jobs"],
+        icon: "SiLinkedin",
+    },
+    {
+        id: "instagram",
+        name: "Instagram",
+        description: "Photo and video sharing social network.",
+        url: "https://instagram.com/",
+        category: "social-media",
+        tags: ["photo", "video", "social"],
+        icon: "SiInstagram",
+    },
     // ... (continue with all other social-media tools as in your file)
 
     // =========================
     // Images & Media
     // =========================
-{
+    {
         id: "findclone",
         name: "FindClone",
         description: "Facial recognition search for VK profile images",
@@ -258,10 +295,11 @@ export const tools: Tool[] = [
     {
         id: "google-maps",
         name: "Google Maps",
-        description: "Comprehensive mapping service with satellite imagery, street view, and location intelligence for geospatial analysis",
-        url: "https://www.google.com/maps",
+        description: "Comprehensive mapping service with satellite imagery, street view, and location intelligence for geospatial analysis.",
+        url: "https://maps.google.com/",
         category: "geolocation",
-        tags: ["maps", "satellite", "street-view", "navigation", "locations"],
+        tags: ["maps", "satellite", "street", "location"],
+        icon: "SiGooglemaps",
     },
     {
         id: "bing-maps",
@@ -269,15 +307,17 @@ export const tools: Tool[] = [
         description: "Microsoft's mapping platform offering aerial imagery, bird's eye view, and alternative geographic perspectives",
         url: "https://www.bing.com/maps",
         category: "geolocation",
-        tags: ["maps", "aerial", "birds-eye", "microsoft", "imagery"],
+        tags: ["maps", "aerial", "microsoft"],
+        icon: "SiMicrosoftbing",
     },
     {
         id: "yandex-maps",
         name: "Yandex Maps",
         description: "Russian mapping service with detailed coverage of Eastern Europe and Asia, offering unique geographic data",
-        url: "https://yandex.com/maps/",
+        url: "https://yandex.com/maps",
         category: "geolocation",
-        tags: ["maps", "russia", "eastern-europe", "asia", "detailed"],
+        tags: ["maps", "russia", "asia"],
+        icon: "SiYandex",
     },
     {
         id: "baidu-maps",
@@ -331,9 +371,10 @@ export const tools: Tool[] = [
         id: "google-earth",
         name: "Google Earth",
         description: "3D earth visualization platform with historical satellite imagery and detailed geographic exploration capabilities",
-        url: "https://earth.google.com/web/",
+        url: "https://earth.google.com/",
         category: "geolocation",
-        tags: ["3d", "earth", "historical", "satellite", "visualization"],
+        tags: ["3d", "earth", "satellite"],
+        icon: "SiGoogleearth",
     },
     {
         id: "flightradar24",
@@ -341,7 +382,8 @@ export const tools: Tool[] = [
         description: "Real-time flight tracking service showing aircraft positions, routes, and aviation traffic worldwide",
         url: "https://www.flightradar24.com/",
         category: "geolocation",
-        tags: ["flight", "tracking", "aircraft", "aviation", "real-time"],
+        tags: ["flight", "tracking", "aviation"],
+        icon: "SiFlightradar24",
     },
     {
         id: "marinetraffic",
