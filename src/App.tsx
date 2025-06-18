@@ -8,6 +8,8 @@ import { tools } from './data/tools';
 import { categories } from './data/categories';
 import useDarkMode from './hooks/useDarkMode';
 import bellaCiaoGif from './assets/tool-logos/hero/bella-ciao.gif';
+import BackgroundGradientDemo from "../components/background-gradient-demo";
+import CardHoverEffectDemo from "../components/card-hover-effect-demo";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -65,6 +67,11 @@ function App() {
           </div>
         </section>
         <main className="container mx-auto px-4 pt-8 pb-12">
+          {/* Demo Components Showcase */}
+          <section className="mb-12 flex flex-col md:flex-row gap-8 items-center justify-center">
+            <BackgroundGradientDemo />
+            <CardHoverEffectDemo />
+          </section>
           {searchQuery && filteredTools.length === 0 ? (
             <div className="text-center py-12 animate-fade-in">
               <p className="text-xl text-gray-300">
