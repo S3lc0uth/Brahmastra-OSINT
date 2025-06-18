@@ -25,12 +25,12 @@ const Footer: React.FC = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://github.com/Gr1ffend0r"
+              href="https://github.com/S3lc0uth/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
             >
-              <Twitter size={24} />
+              <Github size={24} />
             </a>
             <a
               href="mailto:Gr1ffend0r@proton.me"
