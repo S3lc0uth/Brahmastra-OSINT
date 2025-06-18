@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 animate-glow">
-            Jenin
+            osint
           </h1>
         </div>
 
