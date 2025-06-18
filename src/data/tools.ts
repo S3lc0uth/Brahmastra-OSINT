@@ -215,14 +215,6 @@ export const tools: Tool[] = [
         tags: ["facial-recognition", "reverse-search", "face-finder", "identity"],
     },
     {
-        id: "rootabout",
-        name: "RootAbout",
-        description: "Reverse image search engine that combines multiple search sources to find image origins and similar pictures",
-        url: "https://rootabout.com/",
-        category: "images-media",
-        tags: ["reverse-image", "search", "origins", "multi-source"],
-    },
-    {
         id: "tineye",
         name: "TinEye",
         description: "Pioneer reverse image search engine that tracks where images appear online and identifies oldest/newest versions",
