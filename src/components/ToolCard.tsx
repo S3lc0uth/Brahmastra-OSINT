@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ExternalLink, Bookmark, BookmarkCheck } from 'lucide-react';
 import { Tool } from '../types';
 import * as SiIcons from 'react-icons/si';
+import ShapesButton from "./ShapesButton";
 
 // Dynamically import all images in tool-logos
 const logoImages = import.meta.glob('../assets/tool-logos/*', { eager: true, as: 'url' });
@@ -61,6 +62,8 @@ const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
               <h3 className="font-medium text-neutral-100 group-hover:text-blue-400 transition-colors">
                 {tool.name}
               </h3>
+              {/* Add the shape button for ChatGPT */}
+              {tool.id === 'chatgpt' && <ShapesButton />}
             </div>
           </div>
           
