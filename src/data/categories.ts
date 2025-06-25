@@ -3,7 +3,7 @@ import { Category } from "../types";
 export const categories: Category[] = [
     {
         id: "search-engines",
-        name: "Search Engines",
+        name: "Search Engin",
         description: "Tools for searching the web and specific content types",
         icon: "search",
     },
