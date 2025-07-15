@@ -8,9 +8,9 @@ import { tools } from './data/tools';
 import { categories } from './data/categories';
 import useDarkMode from './hooks/useDarkMode';
 import bellaCiaoGif from './assets/tool-logos/hero/bella-ciao.gif';
-import BackgroundGradientDemo from "../components/background-gradient-demo";
-import CardHoverEffectDemo from "../components/card-hover-effect-demo";
-import { Boxes } from "../components/ui/background-boxes";
+import BackgroundGradientDemo from "./components/background-gradient-demo";
+import CardHoverEffectDemo from "./components/card-hover-effect-demo";
+import { Boxes } from "./components/ui/background-boxes";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');

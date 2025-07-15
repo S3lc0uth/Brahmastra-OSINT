@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @keyframes float {
   0%, 100% { transform: translateY(0) scale(1); filter: drop-shadow(0 0 16px #00f6ff88); }

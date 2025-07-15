@@ -2,7 +2,7 @@ import React from 'react';
 import ToolCard from './ToolCard';
 import { Tool, Category } from '../types';
 import * as LucideIcons from 'lucide-react';
-import { HoverEffect } from "../../components/ui/card-hover-effect";
+import { HoverEffect } from "./ui/card-hover-effect";
 
 interface CategorySectionProps {
   category: Category;
