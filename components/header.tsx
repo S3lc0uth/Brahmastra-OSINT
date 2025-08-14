@@ -36,6 +36,13 @@ export function Header() {
                         href="/recon"
                         className="hover:text-neutral-300 transition-colors"
                     >
+                    Home
+                </TransitionLink>
+                <nav className="flex items-center gap-6 text-white">
+                    <TransitionLink
+                        href="/"
+                        className="hover:text-neutral-300 transition-colors"
+                    >
                         Tools
                     </TransitionLink>
                     <TransitionLink
