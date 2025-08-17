@@ -37,8 +37,7 @@ export function Header() {
                         className="hover:text-neutral-300 transition-colors"
                     >
                     Home
-                </TransitionLink>
-                <nav className="flex items-center gap-6 text-white">
+                  </TransitionLink>
                     <TransitionLink
                         href="/"
                         className="hover:text-neutral-300 transition-colors"
