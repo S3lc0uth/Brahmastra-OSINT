@@ -33,13 +33,13 @@ export function Header() {
                 </TransitionLink>
                 <nav className="flex items-center gap-6 text-white">
                     <TransitionLink
-                        href="/recon"
+                        href="/"
                         className="hover:text-neutral-300 transition-colors"
                     >
                     Home
                   </TransitionLink>
                     <TransitionLink
-                        href="/"
+                        href="/recon"
                         className="hover:text-neutral-300 transition-colors"
                     >
                         Tools
