@@ -1,4 +1,5 @@
-  <img width="203" height="224" alt="image" src="https://github.com/user-attachments/assets/e916bfb0-7099-4ce9-bec6-4c0578f30809" />
+
+<img width="300" height="425" alt="ChatGPT Image Aug 19, 2025, 12_00_50 PM" src="https://github.com/user-attachments/assets/ccbef600-f7bd-4ed2-aa6d-4d184d17f45d" />
 
 
 Brahmastra is an open-source platform having a collection of the most relevant and powerful OSINT (Open Source Intelligence) tools available in the market which is free to use with or without auth.
