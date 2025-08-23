@@ -14,6 +14,7 @@ import {
     ArrowLeft,
     ExternalLink,
     Tag,
+    Cpu,
 } from "lucide-react";
 import { getToolsByCategory, OSINTTool } from "@/lib/osint-tools";
 import { TransitionLink } from "@/components/transition-link";
@@ -81,6 +82,13 @@ const osintCategories = [
             "Tools for satellite imagery analysis, tracking, and geospatial intelligence.",
         icon: Globe2,
         href: "/recon/satellite",
+    },
+    {
+        title: "AI Tools",
+        description:
+            "Explore AI-powered tools for text generation, image creation, and advanced analytics.",
+        icon: Cpu,
+        href: "/recon/ai-tools",
     },
 ];
 
