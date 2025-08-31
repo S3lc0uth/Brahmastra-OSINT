@@ -75,16 +75,15 @@ const CyberscapeMaterial = shaderMaterial(
 extend({ CyberscapeMaterial })
 
 const Scene = () => {
-  const materialRef = useRef<any>()
-  const mousePos = useMemo(() => new THREE.Vector2(), [])
+  const materialRef = useRef<any>(null)
 
   useFrame((state, delta) => {
     if (materialRef.current) {
-      materialRef.current.uTime += delta
+      materialRef.current.uTime += delta * 0.3
       materialRef.current.uMouse.lerp(state.mouse, 0.05)
     }
   })
-
+  
   return (
     <mesh>
       <planeGeometry args={[2, 2]} />

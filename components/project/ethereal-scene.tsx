@@ -101,7 +101,7 @@ const EtherealMaterial = shaderMaterial(
 extend({ EtherealMaterial })
 
 const Scene = () => {
-  const materialRef = useRef<any>()
+  const materialRef = useRef<any>(null)
 
   useFrame((state, delta) => {
     if (materialRef.current) {
