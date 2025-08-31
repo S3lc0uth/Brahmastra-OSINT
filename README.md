@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)](https://brahmastra-osint.vercel.app)
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 
+> *"Finding the Signals in the Noise."*  
 > *"The ultimate weapon for intelligence gathering - use it wisely."*  
 
 ## 🔱 About Brahmastra
@@ -27,15 +28,15 @@ Brahmastra organizes OSINT tools across nine specialized categories:
 
 | Category | Description |
 |----------|-------------|
-| ** Search Engines** | Powerful tools to query and aggregate data from public and specialized search engines |
-| ** Social Media** | Analyze, monitor, and extract intelligence from social media platforms and public profiles |
-| ** Domain & IP** | Investigate domains, IP addresses, DNS records, and related infrastructure |
-| ** Images & Media** | Reverse image search, metadata extraction, and media analysis for digital forensics |
-| ** Geolocation** | Geospatial tools for mapping, tracking, and analyzing location-based data |
-| ** Darkweb** | Access and analyze dark web sources for hidden intelligence and threat monitoring |
-| ** Communication** | Investigate communication channels, chat platforms, and messaging services |
-| ** Email** | Email address investigation, breach checks, and metadata analysis |
-| ** Satellite** | Tools for satellite imagery analysis, tracking, and geospatial intelligence |
+|  Search Engines | Powerful tools to query and aggregate data from public and specialized search engines |
+|  Social Media | Analyze, monitor, and extract intelligence from social media platforms and public profiles |
+|  Domain & IP | Investigate domains, IP addresses, DNS records, and related infrastructure |
+|  Images & Media | Reverse image search, metadata extraction, and media analysis for digital forensics |
+|  Geolocation | Geospatial tools for mapping, tracking, and analyzing location-based data |
+|  Darkweb | Access and analyze dark web sources for hidden intelligence and threat monitoring |
+|  Communication | Investigate communication channels, chat platforms, and messaging services |
+|  Email | Email address investigation, breach checks, and metadata analysis |
+|  Satellite | Tools for satellite imagery analysis, tracking, and geospatial intelligence |
 
 ## Blog Platform
 
@@ -59,11 +60,11 @@ Brahmastra features a community-driven blog platform where researchers, analysts
 
 Every quarter, Brahmastra hosts specialized Capture The Flag (CTF) competitions focused exclusively on OSINT challenges featuring:
 
-- ** Real-world scenarios:** Corruption, Geo-Int, Drug Trafficking, Web-Int, etc.
-- ** Progressive difficulty levels**
-- ** Community leaderboards**
-- ** Educational writeups post-competition**
-- ** Prizes for top performers**
+-  Real-world scenarios: Corruption, Geo-Int, Drug Trafficking, Web-Int, etc.
+-  Progressive difficulty levels
+-  Community leaderboards
+-  Educational writeups post-competition
+-  Prizes for top performers
 
 ## Contributing
 
@@ -88,10 +89,10 @@ We welcome contributions from the OSINT community! Here's how you can contribute
 
 | Type | Method |
 |------|--------|
-| ** Tools** | Open an issue with tool details or submit a pull request |
-| ** Blogs** | Submit your article to: `brahmastra-osint@proton.me` |
-| ** Bug Reports** | Use GitHub issues to report problems |
-| ** Feature Requests** | Discuss new features in GitHub discussions |
+|  Tools | Open an issue with tool details or submit a pull request |
+|  Blogs | Submit your article to: `brahmastra-osint@proton.me` |
+|  Bug Reports | Use GitHub issues to report problems |
+|  Feature Requests | Discuss new features in GitHub discussions |
 
 ##  Security
 
