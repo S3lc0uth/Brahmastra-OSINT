@@ -144,31 +144,6 @@ export const osintTools: OSINTTool[] = [
         category: "search-engines",
         tags: ["analysis", "information", "reconnaissance"],
     },
-    {
-        id: "ghunt",
-        name: "GHunt",
-        description: "Command line tool for Google account investigation",
-        url: "https://github.com/mxrch/Ghunt",
-        category: "search-engines",
-        tags: ["google", "account", "investigation", "command-line"],
-    },
-    {
-        id: "4plebs",
-        name: "4plebs",
-        description: "Searchable archive of 4chan boards",
-        url: "https://4plebs.org/",
-        category: "search-engines",
-        tags: ["4chan", "archive", "search", "forum"],
-    },
-    {
-        id: "google-account-finder",
-        name: "Google Account Finder (EPIEOS)",
-        description:
-            "Find profile pictures and Google Map reviews linked to Gmail addresses",
-        url: "https://tools.epieos.com/google-account.php",
-        category: "search-engines",
-        tags: ["google", "gmail", "account", "reviews"],
-    },
 
     // Email tools
     {
@@ -1045,6 +1020,70 @@ export const osintTools: OSINTTool[] = [
         category: "satellite",
         tags: ["satellite", "astronomy", "events", "tracking"],
     },
+// AI Tools
+  {
+    "id": "dork-gpt",
+    "name": "Dork GPT",
+    "description": "An AI-powered tool for generating advanced search queries (Google dorks) for security and research purposes.",
+    "url": "https://www.dorkgpt.com/",
+    "category": "ai-tools",
+    "tags": ["ai", "security", "dorking", "search", "research"]
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description":
+      "A large language model-based chatbot developed by OpenAI for conversational AI, text generation, and more.",
+    "url": "https://chatgpt.com/",
+    "category": "ai-tools",
+    "tags": ["ai", "chatbot", "openai", "llm", "conversational-ai"]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "description":
+      "A family of multimodal large language models by Google, capable of understanding text, images, audio, and video.",
+    "url": "https://gemini.google.com/app",
+    "category": "ai-tools",
+    "tags": ["ai", "chatbot", "google", "llm", "multimodal"]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "description":
+      "An AI chat tool with a strong focus on coding and reasoning abilities, developed by DeepSeek AI.",
+    "url": "https://chat.deepseek.com/",
+    "category": "ai-tools",
+    "tags": ["ai", "chatbot", "coding", "llm", "developer-tool"]
+  },
+  {
+    "id": "kali-gpt",
+    "name": "Kali GPT",
+    "description":
+      "A custom GPT model on the ChatGPT platform designed to assist with cybersecurity tasks related to the Kali Linux distribution.",
+    "url": "https://chatgpt.com/g/g-uRhIB5ire-kali-gpt",
+    "category": "ai-tools",
+    "tags": ["ai", "gpt", "cybersecurity", "kali-linux", "pentesting"]
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "description":
+      "An AI-powered conversational search engine that provides direct answers to questions with cited sources from the web.",
+    "url": "https://www.perplexity.ai/",
+    "category": "ai-tools",
+    "tags": ["ai", "search-engine", "research", "citations"]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "description":
+      "An AI assistant developed by Anthropic, focused on helpful, harmless, and honest conversations.",
+    "url": "https://claude.ai/new",
+    "category": "ai-tools",
+    "tags": ["ai", "chatbot", "anthropic", "llm", "conversational-ai"]
+  }
+
 ];
 
 export const getToolsByCategory = (category: string): OSINTTool[] => {
@@ -1062,6 +1101,7 @@ export const getCategoryTools = () => {
         communication: getToolsByCategory("communication"),
         email: getToolsByCategory("email"),
         satellite: getToolsByCategory("satellite"),
+        "ai-tools": getToolsByCategory("ai-tools"),
     };
     return categories;
 };
